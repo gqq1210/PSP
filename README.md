@@ -2,7 +2,7 @@
 
 This repository is the official implementation of *PSP: Pre-Training and Structure Prompt Tuning for Graph Neural Networks*.
 
-![The proposed framework](./model.pdf)
+![The proposed framework](./model.png)
 
 ## Setup
 
