@@ -23,15 +23,26 @@ This implemetation is based on Python3. To run the code, you need the following 
 
 ## Usage
 
-An example of training node classification:
+### Node Classification
+Default dataset is COX2. You need to change the corresponding parameters in pre_train.py and prompt.py to train and evaluate on other datasets.
+
+Pretrain:
 ```
-cd PSP_node
 python pre_train.py
+```
+Prompt tune and test:
+```
 python prompt.py
 ```
-An example of training graph classification:
+
+### Graph Classification
+Default dataset is CiteSeer. You need to change the corresponding parameters in pre_train.py and prompt_graph.py to train and evaluate on other datasets.
+
+Pretrain:
 ```
-cd PSP_graph
 python pre_train.py
+```
+Prompt tune and test:
+```
 python prompt_graph.py
 ```
