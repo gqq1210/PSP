@@ -15,7 +15,7 @@ This implemetation is based on Python3. To run the code, you need the following 
 > torch-scatter==2.1.0 \
 > torch-sparse==0.6.15 \
 > torch-spline-conv==1.2.1 \
-> networkx==2.8.5 \
+> dgl==0.9.0 \
 > scikit-learn==1.1.3 \
 > scipy==1.9.3 \
 > numpy==1.23.5 \
@@ -30,7 +30,7 @@ Pretrain:
 ```
 python pre_train.py
 ```
-Prompt tune and test:
+Prompt tuning:
 ```
 python prompt.py
 ```
@@ -42,7 +42,7 @@ Pretrain:
 ```
 python pre_train.py
 ```
-Prompt tune and test:
+Prompt tuning:
 ```
 python prompt_graph.py
 ```
